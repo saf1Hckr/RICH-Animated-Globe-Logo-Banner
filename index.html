@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RICH Animated Globe Banner</title>
+  <style>
+    /* --- Default styles for mobile --- */
+    .banner {
+      display: flex;
+      flex-direction: row; 
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+      background: white;
+      gap: 1.5rem; 
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .globe {
+      width: 100px;
+      height: 100px; 
+      animation: spin 20s linear infinite;
+    }
+
+    @keyframes spin {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+
+    .divider {
+      width: 1px; 
+      height: 40px;
+      background: #888;
+      border-radius: 4px;
+    }
+
+    .svg-image {
+      width: 200px; 
+      height: auto;
+      margin-top: 10px;
+    }
+
+    .rich-line {
+      font-size: 2rem;
+    }
+
+    /* --- Media Query for Desktops (screens wider than 768px) --- */
+    @media (min-width: 768px) {
+      .banner {
+        flex-direction: row; 
+        gap: 2rem;
+      }
+
+      .globe {
+        width: 150px;
+        height: 150px;
+      }
+
+      .divider {
+        width: 3px;
+        height: 80px; 
+        border-radius: 4px;
+      }
+
+      .svg-image {
+        width: 280px; 
+        height: auto;
+        margin-top: 10px;
+      }
+
+      .rich-line {
+        font-size: 3rem; 
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="banner">
+    <img src="brand-globe.png" alt="RICH Globe" class="globe">
+    <div class="divider"></div>
+    <div class="text">
+      <img src="images/rich-logo.svg" class="svg-image" alt="RICH">
+    </div>
+  </div>
+</body>
+</html>
