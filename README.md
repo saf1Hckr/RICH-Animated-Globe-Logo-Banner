@@ -6,7 +6,7 @@ The banner enhances brand identity by combining **interactive animation** with *
 ---
 
 ## ✨ Features
-- 🌐 Animated globe logo implemented with modern front-end techniques  
+- 🌐 Animated globe logo implemented with modern front-end techniques for every pages 
 - 📱 Mobile-responsive design with **80% improved accessibility**  
 - ⚡ Optimized banner performance, reducing load time by **20%**  
 - 🎨 Strengthens branding and visual presentation for the organization  
@@ -18,3 +18,5 @@ The banner enhances brand identity by combining **interactive animation** with *
 - **CSS3**  
 - **JavaScript**  
 - **GitHub** for version control  
+
+## Website Link: www.richinc.org
