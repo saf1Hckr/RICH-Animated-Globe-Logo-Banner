@@ -18,7 +18,3 @@ The banner enhances brand identity by combining **interactive animation** with *
 - **CSS3**  
 - **JavaScript**  
 - **GitHub** for version control  
-
----
-
-## 📂 Project Structure
